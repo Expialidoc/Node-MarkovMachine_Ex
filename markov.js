@@ -44,7 +44,7 @@ class MarkovMachine {
           bigram = w1 + ' '; this.textChains[bigram] = '';
         }
       }
-    } console.log(this.textChains);
+    }                                                         //console.log(this.textChains);
   }
 
   /** return random text from chains */
